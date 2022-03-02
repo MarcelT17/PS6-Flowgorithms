@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="super"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-01 11:29:55 PM"/>
+        <attribute name="created" value="c3VwZXI7REVTS1RPUC0ySzNRT1FNOzIwMjItMDMtMDE7MTE6MjM6MjYgUE07MjkwNQ=="/>
+        <attribute name="edited" value="c3VwZXI7REVTS1RPUC0ySzNRT1FNOzIwMjItMDMtMDE7MTE6Mjk6NTUgUE07MTszMDIx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="startvalue" type="Integer" array="False" size=""/>
+            <declare name="stopvalue" type="Integer" array="False" size=""/>
+            <declare name="incrementvalue" type="Integer" array="False" size=""/>
+            <input variable="principle"/>
+            <input variable="interestrate"/>
+            <for variable="count" start="1" end="10" direction="inc" step="1"/>
+            <for variable="number" start="1" end="11" direction="inc" step="1"/>
+            <assign variable="i" expression="p + r"/>
+            <assign variable="eb" expression="p + i"/>
+            <assign variable="p" expression="eb"/>
+            <output expression="&quot;count from 1 to 10 by 1s&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
