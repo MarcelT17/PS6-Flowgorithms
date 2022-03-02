@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="super"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-01 11:36:12 PM"/>
+        <attribute name="created" value="c3VwZXI7REVTS1RPUC0ySzNRT1FNOzIwMjItMDMtMDE7MTE6MzI6MDggUE07MjkwNQ=="/>
+        <attribute name="edited" value="c3VwZXI7REVTS1RPUC0ySzNRT1FNOzIwMjItMDMtMDE7MTE6MzY6MTIgUE07MTszMDEy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numberofterms" type="Integer" array="False" size=""/>
+            <declare name="logic" type="Integer" array="False" size=""/>
+            <input variable="numberofterms"/>
+            <if expression="n &lt;= 0">
+                <then>
+                    <output expression="&quot;Enter a positive intiger&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="n == 1">
+                        <then>
+                            <output expression="&quot;Print sequence up to n&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Print sequence&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <assign variable="sum" expression="n1 + n2"/>
+            <assign variable="n1" expression="n2"/>
+            <assign variable="n2" expression="sum"/>
+        </body>
+    </function>
+</flowgorithm>
