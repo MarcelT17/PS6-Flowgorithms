@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="super"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-02 07:26:55 PM"/>
+        <attribute name="created" value="c3VwZXI7REVTS1RPUC0ySzNRT1FNOzIwMjItMDMtMDI7MDc6MTk6MzQgUE07MjkxNQ=="/>
+        <attribute name="edited" value="c3VwZXI7REVTS1RPUC0ySzNRT1FNOzIwMjItMDMtMDI7MDc6MjY6NTUgUE07MTszMDI0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lastname" type="Integer" array="False" size=""/>
+            <declare name="districtcode" type="Integer" array="False" size=""/>
+            <declare name="numofcredits" type="Integer" array="False" size=""/>
+            <declare name="tuition" type="Integer" array="False" size=""/>
+            <assign variable="tuition" expression="( credits * cost)"/>
+            <assign variable="costpercredit" expression="250.000"/>
+            <output expression="&quot;student last name is &quot;" newline="True"/>
+            <output expression="&quot;credits taken is &quot;" newline="True"/>
+            <output expression="&quot;tuition owed is &quot;" newline="True"/>
+            <output expression="&quot;Sum of all tuition owed is &quot;" newline="True"/>
+            <output expression="&quot;number of student is &quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
