@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="super"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-02 07:19:09 PM"/>
+        <attribute name="created" value="c3VwZXI7REVTS1RPUC0ySzNRT1FNOzIwMjItMDMtMDI7MDc6MTQ6MTMgUE07MjkwNw=="/>
+        <attribute name="edited" value="c3VwZXI7REVTS1RPUC0ySzNRT1FNOzIwMjItMDMtMDI7MDc6MTk6MDkgUE07MTszMDI1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="sum" expression="0"/>
+            <assign variable="counter" expression="0"/>
+            <declare name="qty" type="Integer" array="False" size=""/>
+            <declare name="price" type="Integer" array="False" size=""/>
+            <declare name="totp" type="Integer" array="False" size=""/>
+            <declare name="item" type="Integer" array="False" size=""/>
+            <assign variable="c" expression="c + 1"/>
+            <assign variable="totp" expression="totp + ep"/>
+            <assign variable="ep" expression="qty * price"/>
+            <output expression="&quot;Item is &quot;" newline="True"/>
+            <output expression="&quot;Quantity is &quot;" newline="True"/>
+            <output expression="&quot;Price is &quot;" newline="True"/>
+            <output expression="&quot;Extended price is &quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
