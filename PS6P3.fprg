@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="super"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-02 07:13:49 PM"/>
+        <attribute name="created" value="c3VwZXI7REVTS1RPUC0ySzNRT1FNOzIwMjItMDMtMDI7MDY6NTQ6NDMgUE07MjkxMw=="/>
+        <attribute name="edited" value="c3VwZXI7REVTS1RPUC0ySzNRT1FNOzIwMjItMDMtMDI7MDc6MTM6NDkgUE07MTszMDIz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="bonusrate" type="Integer" array="False" size=""/>
+            <declare name="salary" type="Integer" array="False" size=""/>
+            <declare name="name" type="Integer" array="False" size=""/>
+            <assign variable="name" expression="marcel"/>
+            <assign variable="salary" expression="0"/>
+            <assign variable="sum1" expression="0"/>
+            <input variable="salary"/>
+            <if expression="salary &gt;= 100000">
+                <then>
+                    <assign variable="bonusrate" expression="(salary * (20/100))"/>
+                </then>
+                <else>
+                    <if expression="salary == 50000">
+                        <then>
+                            <assign variable="bonusrate" expression="(salary*(15/100))"/>
+                        </then>
+                        <else>
+                            <assign variable="bonusrate" expression="(salary*(10/100))"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="name" newline="True"/>
+            <output expression="salary" newline="True"/>
+            <output expression="bonus" newline="True"/>
+            <output expression="&quot;sum of all bonuses paod out is&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
